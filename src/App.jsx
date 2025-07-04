@@ -50,7 +50,9 @@ const App = () => {
   };
 
   return (
+    
     <div className="min-h-screen bg-blue-100 px-8 py-6">
+      <div>Salom</div>
       <h1 className="text-3xl font-bold mb-4 text-black">MY Books test</h1>
       <AddBookModal onAdd={handleAddBook}/>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
